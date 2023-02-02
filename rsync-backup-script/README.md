@@ -19,9 +19,10 @@ Backing up data is something that most sysadmins need to do regularly. Specially
 
 In the first machine we will write Two  scripts for an incremental backups with rsync. The first script is for a local backup as we can see in the figure 1 (rync.png) below and the second one is for remote backup from machine 1 to machine 2 as described in the figure 2 (rync1.png) below.
 ![rsync](https://user-images.githubusercontent.com/71864195/216413139-f6a27a5f-ac3b-41b1-9014-17cbf72a0d4d.png)
+figure 1 (rync.png)
 ![rsync1](https://user-images.githubusercontent.com/71864195/216413232-8cfe207b-c3bf-4634-b80d-6eb1b135e700.png)
 
- 
+ figure 2 (rync1.png)
 
 To get rsync working between two hosts, the rsync program must be installed on both the source and destination, and you’ll need a way to access one machine from the other. The easiest way to transfer files is to use a remote shell account, and we’ll assume that you want to transfer files using SSH access. However,remember that rsync can be handy even for copying files and directories between locations on a singlebmachine, such as from one filesystem to another.
 
