@@ -18,9 +18,9 @@ sync is a fairly simple to use yet very powerful program. It allows you to perfo
 Backing up data is something that most sysadmins need to do regularly. Specially for this topic , we are going to create two Virtual machine using Vagrant and Qemu.
 
 In the first machine we will write Two  scripts for an incremental backups with rsync. The first script is for a local backup as we can see in the figure 1 (rync.png) below and the second one is for remote backup from machine 1 to machine 2 as described in the figure 2 (rync1.png) below.
-
-<img src="/Users/khufu/Desktop/DevOps/cmtools/shell/backupshellscript/rsync.png" width="auto"/>
-<img src="/Users/khufu/Desktop/DevOps/cmtools/shell/backupshellscript/rsync1.png" width="auto"/>
+ https://github.com/jeanclaver/DevOps-EDegree/rsync-backup-script
+<img src="https://github.com/jeanclaver/DevOps-EDegree/rsync-backup-script/rsync.png" width="auto"/>
+<img src="https://github.com/jeanclaver/DevOps-EDegree/rsync-backup-script/rsync1.png" width="auto"/>
 
 To get rsync working between two hosts, the rsync program must be installed on both the source and destination, and you’ll need a way to access one machine from the other. The easiest way to transfer files is to use a remote shell account, and we’ll assume that you want to transfer files using SSH access. However,remember that rsync can be handy even for copying files and directories between locations on a singlebmachine, such as from one filesystem to another.
 
