@@ -1,0 +1,39 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+ENV["LC_ALL"] = "en_US.UTF-8"
+ENV['VAGRANT_DEFAULT_PROVIDER'] = 'libvirt'
+
+
+Vagrant.configure("2") do |config|
+
+  ##### DEFINE VM #####
+   
+   # Machine number one for Local Backup
+  
+    config.vm.define "devbox" do |config|
+    config.vm.hostname = "devbox"
+    config.vm.box = "generic/ubuntu2004"
+    config.vm.box_check_update = false
+    config.vm.network "private_network", ip: "192.168.122.231"
+    config.vm.synced_folder ".", "/vagrant-data", type: "nfs"
+    config.vm.provider :libvirt do |v|
+      v.memory = 2024
+      end
+    end
+ 
+
+  # Machine number two for Remote Backup
+  
+    config.vm.define "backupserver" do |config|
+    config.vm.hostname = "backupserver"
+    config.vm.box = "generic/alpine39"
+    config.vm.box_check_update = false
+    config.vm.network "private_network", ip: "192.168.122.251"
+    config.vm.synced_folder ".", "/vagrant-data", type: "nfs"
+    config.vm.provider :libvirt do |v|
+      v.memory = 1024
+      end
+    end
+ end
+
+ 
