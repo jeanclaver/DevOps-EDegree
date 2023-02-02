@@ -1,14 +1,15 @@
 # Projet 1:
 TOPIC: Backup Scheme (Make a local backup scheme using rsync . You can try to compress it and schedule it using crontab. Please upload your code in dropbox/ Gdrive or github and share the link below for us to check it. You will be graded based on quality of your implementation. )
 
-Problem : How to Back Up and Restore Your Linux System Using the Rsync Utility ?
+# Problem 
+How to Back Up and Restore Your Linux System Using the Rsync Utility ?
 What is the your ability to recover when  a system failure, a natural disaster, or a malware attack happens ?
 
 Server backups provide the much-needed confidence that data is not lost and can be recovered in case of any eventuality. We have differents OS and each of them expose different ways to handle Server backups.
 Here we are going to see how we can use Linux OS which offers different tools to see how we can backup our server.
 Backing up your server is also import like taking care of your child everyday. As Linux users different backup solutions are available. We can  use backup software like NetBckup that automatically backs up your system at predefined times. Alternatively, you could manually back up your server to an external hard drive, RAID array, or another remote server. One of the handiest and reliable backup tools you can use to back up your server is : rsync.
 
-What Is the Rsync Tool?
+# What Is the Rsync Tool?
 rsync: Synchronize files for backup
 
 The rsync command was written by Andrew Tridgell and Paul Mackerras and first released in 1996. The primary intention for rsync is to remotely synchronize the files on one computer with those on another.
