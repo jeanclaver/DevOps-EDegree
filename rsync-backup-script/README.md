@@ -18,7 +18,7 @@ sync is a fairly simple to use yet very powerful program. It allows you to perfo
 Backing up data is something that most sysadmins need to do regularly. Specially for this topic , we are going to create two Virtual machine using Vagrant and Qemu.
 
 In the first machine we will write Two  scripts for an incremental backups with rsync. The first script is for a local backup as we can see in the figure 1 (rync.png) below and the second one is for remote backup from machine 1 to machine 2 as described in the figure 2 (rync1.png) below.
- ![My Image](../images/rsync-backup-script/rsync.png)
+ ![My Image](../DevOps-EDegree/rsync-backup-script/rsync.png)
 <img src="https://github.com/jeanclaver/DevOps-EDegree/rsync-backup-script/rsync.png" width="auto"/>
 <img src="https://github.com/jeanclaver/DevOps-EDegree/rsync-backup-script/rsync1.png" width="auto"/>
 
