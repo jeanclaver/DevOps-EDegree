@@ -18,15 +18,17 @@ uppercase letters numbers and symbols. The passwords should be random generating
 Choose any of the project from the list above and submit the source code by uploading it to any of the following Github/Gdrive/Dropbox .
 
 Project Link :
-Python project:https://github.com/jeanclaver/DevOps-EDegree/tree/main/python
-Java Project :https://github.com/jeanclaver/DevOps-EDegree/tree/main/java
-Ruby Project :https://github.com/jeanclaver/DevOps-EDegree/tree/main/ruby 
+- Python project:https://github.com/jeanclaver/DevOps-EDegree/tree/main/python
+- Java Project :https://github.com/jeanclaver/DevOps-EDegree/tree/main/java
+- Ruby Project :https://github.com/jeanclaver/DevOps-EDegree/tree/main/ruby 
 #  Project 3: Vagrant File sharing system
 
 Project List :
 Share file between vagrant machine - Create a moderate size file named "Donotshare" and share it between two vagrant machines., Install and connect to sqlite database from a virtual machine. Create a Database name "newdatabage" and create 4 tables in it., Set up a nodejs test vm with virtual box windows. Run a simple node app which can be accessed through browser.
-
-
+Project Link :
+- Vagrant project:https://github.com/jeanclaver/DevOps-EDegree/tree/main/Sharefilebetweenvagrantmachine
+- Sqlite Project :https://github.com/jeanclaver/DevOps-EDegree/tree/main/sqlitedatabase
+- Simple NodeJs App Project : https://github.com/jeanclaver/DevOps-EDegree/tree/main/simplenodeapp
 # Project 4 Implement a LAMP stack container on Azure
 
 Project List :
